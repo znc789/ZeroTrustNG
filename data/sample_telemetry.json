@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2026-08-13T09:30:00Z",
+    "user_id": "u-1001",
+    "device_id": "dev-77",
+    "event_type": "login",
+    "location": "us-east",
+    "device_fingerprint": "corp-laptop-win11",
+    "ip_reputation": "clean",
+    "hour": 9
+  },
+  {
+    "timestamp": "2026-08-13T02:12:00Z",
+    "user_id": "u-1001",
+    "device_id": "dev-991",
+    "event_type": "login",
+    "location": "frankfurt",
+    "device_fingerprint": "unknown-device",
+    "ip_reputation": "suspicious",
+    "hour": 2
+  },
+  {
+    "timestamp": "2026-08-13T14:15:00Z",
+    "user_id": "u-2002",
+    "device_id": "dev-112",
+    "event_type": "beaconing",
+    "protocol": "tcp",
+    "source_ip": "10.2.6.15",
+    "dst_port": 443,
+    "bytes_out": 600000,
+    "bytes_in": 1600,
+    "count": 25
+  }
+]
